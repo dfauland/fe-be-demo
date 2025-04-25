@@ -12,7 +12,7 @@ A simple web app showing how frontend and backend work together.
 
 | Index | Project dir | Version | FE/BE | Feature Description             |
 | ----- | ----------- | ------- | ----- | ------------------------------- |
-| 5    | 01          | 0.1     | BE    | tbd |
+| 5    | 01          | 0.1     | BE    | Added route `/birthdayDetails` to calculate certain stats for a given date  |
 
 
 **GitHub changes:**
