@@ -18,7 +18,7 @@ A simple web app showing how frontend and backend work together.
 | 4     | 00          | 0.0     | FE    | Setup Hello World Frontend in React  |
 
 **GitHub changes:**
-- [Commit 4b3103a](https://github.com/dfauland/fe-be-demo/commit/4b3103a1768134507f33b92e0cfadd1a2dec22a4)
+- 1 - 4 | [Commit 4b3103a](https://github.com/dfauland/fe-be-demo/commit/4b3103a1768134507f33b92e0cfadd1a2dec22a4)
 
 ## Installation
 ### Backend
