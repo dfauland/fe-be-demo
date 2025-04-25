@@ -1,4 +1,4 @@
-# v0.0 | Frontend - Backend demo application
+# v0.1 | Frontend - Backend demo application
 A simple web app showing how frontend and backend work together.
 
 **Content overview**:
@@ -12,13 +12,12 @@ A simple web app showing how frontend and backend work together.
 
 | Index | Project dir | Version | FE/BE | Feature Description             |
 | ----- | ----------- | ------- | ----- | ------------------------------- |
-| 1     | 00          | 0.0     | BE    | Installed backend dependencies |
-| 2     | 00          | 0.0     | FE    | Installed frontend dependencies  |
-| 3     | 00          | 0.0     | BE    | Setup Hello World Backend in FastAPI |
-| 4     | 00          | 0.0     | FE    | Setup Hello World Frontend in React  |
+| 5    | 01          | 0.1     | BE    | tbd |
+
 
 **GitHub changes:**
-- [Commit 4b3103a](https://github.com/dfauland/fe-be-demo/commit/4b3103a1768134507f33b92e0cfadd1a2dec22a4)
+- Commit tbd
+
 
 ## Installation
 ### Backend
