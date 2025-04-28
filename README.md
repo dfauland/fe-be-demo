@@ -39,7 +39,8 @@ Each intermediate version (01/, 02/, etc.) represents incremental improvements t
 
 | Index | Project dir | Version | FE/BE | Feature Description             |
 | ----- | ----------- | ------- | ----- | ------------------------------- |
-| 8    | 03          | 0.3    | BE    | TBD  |
+| 9    | 03          | 0.3    | FE    | Containerized frontend with docker  |
+| 8    | 03          | 0.3    | BE    | Containerized backend with docker  |
 | 7    | 02          | 0.2    | FE    | Call Backend to get real birthday results  |
 | 6    | 01          | 0.1     | FE    | Added input field with button to enter birthday & show dummy values in a result table |
 | 5    | 01          | 0.1     | BE    | Added route `/birthdayDetails` to calculate certain stats for a given date  |
@@ -51,6 +52,7 @@ Each intermediate version (01/, 02/, etc.) represents incremental improvements t
 **GitHub changes:**
 | Index | GitHub Commit |
 | ----- | ------------- |
+| 9     | tbd  |
 | 8     | tbd  |
 | 7     | [1b10d9c](https://github.com/dfauland/fe-be-demo/commit/1b10d9c0c0e152691cd9a4f129843d1c7d0d4779) |
 | 6     | [7344575](https://github.com/dfauland/fe-be-demo/commit/7344575e89ed720ef9614ccf7812cfb0340f3739) |

@@ -3,6 +3,7 @@ A simple web app showing how frontend and backend work together.
 
 **Content overview**:
 - [Version history](#version-history)
+- [Using Docker](#using-docker)
 - [Installation](#installation)
     - [Backend](#backend)
     - [Frontend](#frontend)
@@ -12,11 +13,41 @@ A simple web app showing how frontend and backend work together.
 
 | Index | Project dir | Version | FE/BE | Feature Description             |
 | ----- | ----------- | ------- | ----- | ------------------------------- |
-| 8    | 03          | 0.3    | BE    | TBD  |
+| 8    | 03          | 0.3    | BE    | Containerized backend with docker  |
+| 9    | 03          | 0.3    | FE    | Containerized frontend with docker  |
 
 
 **GitHub changes:**
 - 8 | tbd
+- 9 | tbd
+
+## Using Docker
+In order to use this application with docker make sure [docker](https://www.docker.com/) is installed and running.
+
+### Docker backend
+Go to the `backend` folder in a new linux like terminal (For Windows: Use `git bash` for example) and run:
+
+**Linux/Mac:**
+```
+./run_docker_linux.sh
+```
+
+**Windows:**
+```
+./run_docker_windows.sh
+```
+
+### Docker frontend
+Go to the `frontend` folder in a new linux like terminal (For Windows: Use `git bash` for example) and run:
+**Linux/Mac:**
+```
+./run_docker_linux.sh
+```
+
+**Windows:**
+```
+./run_docker_windows.sh
+```
 
 
 ## Installation
