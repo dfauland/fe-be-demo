@@ -39,7 +39,7 @@ Each intermediate version (01/, 02/, etc.) represents incremental improvements t
 
 | Index | Project dir | Version | FE/BE | Feature Description             |
 | ----- | ----------- | ------- | ----- | ------------------------------- |
-| 7    | 02          | 0.2    | FE    | TBD  |
+| 7    | 02          | 0.2    | FE    | Call Backend to get real birthday results  |
 | 6    | 01          | 0.1     | FE    | Added input field with button to enter birthday & show dummy values in a result table |
 | 5    | 01          | 0.1     | BE    | Added route `/birthdayDetails` to calculate certain stats for a given date  |
 | 4     | 00          | 0.0     | FE    | Setup Hello World Frontend in React  |

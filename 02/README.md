@@ -12,7 +12,7 @@ A simple web app showing how frontend and backend work together.
 
 | Index | Project dir | Version | FE/BE | Feature Description             |
 | ----- | ----------- | ------- | ----- | ------------------------------- |
-| 7    | 02          | 0.2    | FE    | TBD  |
+| 7    | 02          | 0.2    | FE    | Call Backend to get real birthday results  |
 
 
 **GitHub changes:**
