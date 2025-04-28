@@ -12,11 +12,11 @@ A simple web app showing how frontend and backend work together.
 
 | Index | Project dir | Version | FE/BE | Feature Description             |
 | ----- | ----------- | ------- | ----- | ------------------------------- |
-| 7    | 02          | 0.2    | FE    | Call Backend to get real birthday results  |
+| 8    | 03          | 0.3    | BE    | TBD  |
 
 
 **GitHub changes:**
-- 7 | [1b10d9c](https://github.com/dfauland/fe-be-demo/commit/1b10d9c0c0e152691cd9a4f129843d1c7d0d4779)
+- 8 | tbd
 
 
 ## Installation
