@@ -39,21 +39,23 @@ Each intermediate version (01/, 02/, etc.) represents incremental improvements t
 
 | Index | Project dir | Version | FE/BE | Feature Description             |
 | ----- | ----------- | ------- | ----- | ------------------------------- |
+| 10   | 04          | 0.4    | FE    | tbd  |
 | 9    | 03          | 0.3    | FE    | Containerized frontend with docker  |
 | 8    | 03          | 0.3    | BE    | Containerized backend with docker  |
 | 7    | 02          | 0.2    | FE    | Call Backend to get real birthday results  |
-| 6    | 01          | 0.1     | FE    | Added input field with button to enter birthday & show dummy values in a result table |
-| 5    | 01          | 0.1     | BE    | Added route `/birthdayDetails` to calculate certain stats for a given date  |
-| 4     | 00          | 0.0     | FE    | Setup Hello World Frontend in React  |
-| 3     | 00          | 0.0     | BE    | Setup Hello World Backend in FastAPI |
-| 2     | 00          | 0.0     | FE    | Installed frontend dependencies  |
-| 1     | 00          | 0.0     | BE    | Installed backend dependencies |
+| 6    | 01          | 0.1    | FE    | Added input field with button to enter birthday & show dummy values in a result table |
+| 5    | 01          | 0.1    | BE    | Added route `/birthdayDetails` to calculate certain stats for a given date  |
+| 4    | 00          | 0.0    | FE    | Setup Hello World Frontend in React  |
+| 3    | 00          | 0.0    | BE    | Setup Hello World Backend in FastAPI |
+| 2    | 00          | 0.0    | FE    | Installed frontend dependencies  |
+| 1    | 00          | 0.0    | BE    | Installed backend dependencies |
 
 **GitHub changes:**
 | Index | GitHub Commit |
 | ----- | ------------- |
-| 9     | tbd  |
-| 8     | tbd  |
+| 10    | tbd  |
+| 9     | [b44041e](https://github.com/dfauland/fe-be-demo/commit/b44041e0e86f52699e36735e228d695b0b5c105f)  |
+| 8     | [0915e08](https://github.com/dfauland/fe-be-demo/commit/0915e083c8fde3311ad4a9c2ddbb46fc95027867)  |
 | 7     | [1b10d9c](https://github.com/dfauland/fe-be-demo/commit/1b10d9c0c0e152691cd9a4f129843d1c7d0d4779) |
 | 6     | [7344575](https://github.com/dfauland/fe-be-demo/commit/7344575e89ed720ef9614ccf7812cfb0340f3739) |
 | 5     | [89b2107](https://github.com/dfauland/fe-be-demo/commit/89b2107a782318223e5bfe9dfeb7a3e76c8ae1f5) |

@@ -1,4 +1,4 @@
-# v0.3 | Frontend - Backend demo application
+# v0.4 | Frontend - Backend demo application
 A simple web app showing how frontend and backend work together.
 
 **Content overview**:
@@ -13,13 +13,11 @@ A simple web app showing how frontend and backend work together.
 
 | Index | Project dir | Version | FE/BE | Feature Description             |
 | ----- | ----------- | ------- | ----- | ------------------------------- |
-| 8    | 03          | 0.3    | BE    | Containerized backend with docker  |
-| 9    | 03          | 0.3    | FE    | Containerized frontend with docker  |
+| 10    | 04          | 0.4    | BE    | TBD  |
 
 
 **GitHub changes:**
-- 8 | [0915e08](https://github.com/dfauland/fe-be-demo/commit/0915e083c8fde3311ad4a9c2ddbb46fc95027867)
-- 9 | [b44041e](https://github.com/dfauland/fe-be-demo/commit/b44041e0e86f52699e36735e228d695b0b5c105f)
+- 10 | tbd
 
 ## Using Docker
 In order to use this application with docker make sure [docker](https://www.docker.com/) is installed and running.
