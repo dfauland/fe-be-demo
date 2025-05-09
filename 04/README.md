@@ -18,10 +18,14 @@ A simple web app showing how frontend and backend work together.
 | 11    | 04          | 0.4    | FE    | Updated the `vite.config.js` to add a development proxy to point to `localhost` backend domain when running locally with `npm run dev`  |
 | 12    | 04          | 0.4    | FE    | Updated nginx config to point to the real backend domain in prod and to `localhost` when running locally in docker |
 | 13    | 04          | 0.4    | FE/BE | Created a deployment script for Azure  |
+| 14    | 04          | 0.4    | FE | Fixed an incorrect nginx configuration  |
+| 15    | 04          | 0.4    | FE | Updated docker shell script to properly start the container  |
+
 
 
 **GitHub changes:**
-- 10 | tbd
+- 10-13 | [caeacfd](https://github.com/dfauland/fe-be-demo/commit/caeacfdd669a9aa9ac5cb0409ec7221061b673e2)
+- 14-15 | tbd
 
 ## Deployment on Azure
 In order to be able to deploy on Azure you need the following prerequisites: 

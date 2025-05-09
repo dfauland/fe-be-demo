@@ -30,5 +30,8 @@ COPY nginx.conf.template /etc/nginx/templates/default.conf.template
 # Expose port 80
 EXPOSE 80
 
+# Set default protocol if not provided
+ENV BACKEND_PROTOCOL=https
+
 # Start nginx
 CMD ["nginx", "-g", "daemon off;"]
