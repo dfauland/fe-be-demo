@@ -1,5 +1,5 @@
 export async function getBirthdayDetails(bday) {
-    const response = await fetch(`http://localhost:8080/birthdayDetails?bday=${bday}`);
+    const response = await fetch(`/api/birthdayDetails?bday=${bday}`);
     const data = await response.json();
 
     if (!response.ok) {

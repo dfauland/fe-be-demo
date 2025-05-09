@@ -3,6 +3,7 @@ A simple web app showing how frontend and backend work together.
 
 **Content overview**:
 - [Version history](#version-history)
+- [Deployment on Azure](#deployment-on-azure)
 - [Using Docker](#using-docker)
 - [Installation](#installation)
     - [Backend](#backend)
@@ -13,11 +14,34 @@ A simple web app showing how frontend and backend work together.
 
 | Index | Project dir | Version | FE/BE | Feature Description             |
 | ----- | ----------- | ------- | ----- | ------------------------------- |
-| 10    | 04          | 0.4    | BE    | TBD  |
+| 10    | 04          | 0.4    | FE    | Removed the backend domain name from the frontend code since this should not be hardcoded  |
+| 11    | 04          | 0.4    | FE    | Updated the `vite.config.js` to add a development proxy to point to `localhost` backend domain when running locally with `npm run dev`  |
+| 12    | 04          | 0.4    | FE    | Updated nginx config to point to the real backend domain in prod and to `localhost` when running locally in docker |
+| 13    | 04          | 0.4    | FE/BE | Created a deployment script for Azure  |
 
 
 **GitHub changes:**
 - 10 | tbd
+
+## Deployment on Azure
+In order to be able to deploy on Azure you need the following prerequisites: 
+- Access to an Azure resource group that has a `Container Registry` and a `Web App` for frontend and backend
+- The [Azure CLI](https://azcliprod.blob.core.windows.net/msi/azure-cli-2.55.0.msi) needs to be installed on your machine
+- Authenticate with azure on your machine with the following command (make sure to choose the correct tenant): `az login --tenant eviden.onmicrosoft.com` 
+- [Docker](https://www.docker.com/) needs to be installed and running on your machine
+
+### Deploy backend
+Go to the `backend` folder in a new linux like terminal (For Windows: Use `git bash` for example) and run:
+```
+./deploy_on_azure.sh --version=1.2.3
+```
+
+### Deploy frontend
+Go to the `frontend` folder in a new linux like terminal (For Windows: Use `git bash` for example) and run:
+```
+./deploy_on_azure.sh --version=1.2.3
+```
+
 
 ## Using Docker
 In order to use this application with docker make sure [docker](https://www.docker.com/) is installed and running.
@@ -35,6 +59,8 @@ Go to the `backend` folder in a new linux like terminal (For Windows: Use `git b
 ./run_docker_windows.sh
 ```
 
+Backend will run on [http://localhost:8080/](http://localhost:8080/)
+
 ### Docker frontend
 Go to the `frontend` folder in a new linux like terminal (For Windows: Use `git bash` for example) and run:
 **Linux/Mac:**
@@ -47,6 +73,7 @@ Go to the `frontend` folder in a new linux like terminal (For Windows: Use `git 
 ./run_docker_windows.sh
 ```
 
+Frontend will run on [http://localhost:3000/](http://localhost:3000/)
 
 ## Installation
 ### Backend

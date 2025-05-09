@@ -15,6 +15,7 @@ docker run \
     --rm \
     --volume "${CURRENT_DIR}:/app" \
     --publish 3000:80 \
+    -e BACKEND_URL=http://host.docker.internal:8080/ \
     -it \
     --name react-frontend \
     react-frontend
