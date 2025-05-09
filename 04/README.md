@@ -25,7 +25,7 @@ A simple web app showing how frontend and backend work together.
 
 **GitHub changes:**
 - 10-13 | [caeacfd](https://github.com/dfauland/fe-be-demo/commit/caeacfdd669a9aa9ac5cb0409ec7221061b673e2)
-- 14-15 | tbd
+- 14-15 | [1493a2f](https://github.com/dfauland/fe-be-demo/commit/1493a2fd2d7f3e0e29073751d265f03f5e29c1cd)
 
 ## Deployment on Azure
 In order to be able to deploy on Azure you need the following prerequisites: 
